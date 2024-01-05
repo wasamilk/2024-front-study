@@ -1,0 +1,32 @@
+<!-- index.html은 최상위(root)경로에 있어야 함 브라우저가 이것을 먼저 찾기때문임-->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <!-- 브라우저 기본style 초기화 -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js"></script>
+  <style>
+    div {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div>Hello world</div><br />
+  <hr/><br />
+
+  <a href="/testPage">1. 폴더까지만 접근하면?</a><br /><br />
+  <a href="/testPage/imgPage.html">2. 이미지 경로 테스트</a><br /><br />
+  <a href="/testPage/resetCss.html">3. 브라우저 기본 style 초기화</a><br /><br />
+
+</body>
+
+</html>

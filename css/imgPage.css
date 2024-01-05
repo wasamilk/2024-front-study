@@ -1,0 +1,9 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: url("../images/testImg.jpg");
+}
+
+img {
+  width: 300px;
+}
